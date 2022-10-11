@@ -122,7 +122,7 @@ img{vertical-align:middle}
 
 .res-row:after,.res-row:before{content:"";display:table;clear:both}
 
-.res-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.res-padding-large{padding-top:64px!important;padding-bottom:64px!important}
 
 .res-col{float:left;width:100%}
 .res-col.m6{width:49.99999%}
@@ -151,3 +151,10 @@ img{vertical-align:middle}
 hr{box-sizing:content-box;height:0;overflow:visible}
 
 h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+
+/*menu section*/
+
+.res-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+
+.res-col.l6{width:49.99999%}
+
