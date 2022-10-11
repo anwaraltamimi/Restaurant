@@ -115,7 +115,39 @@ img{vertical-align:middle}
 
 .res-xxlarge{font-size:36px!important}
 
-
-
-
 /*end header*/
+
+
+/*content start*/
+
+.res-row:after,.res-row:before{content:"";display:table;clear:both}
+
+.res-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+
+.res-col{float:left;width:100%}
+.res-col.m6{width:49.99999%}
+
+.res-padding-large{padding:12px 24px!important}
+
+/* .res-hide-small{display:none!important} */
+
+.res-opacity-min{opacity:0.75}
+
+.res-center{text-align:center!important}
+
+.res-large{font-size:18px!important}
+
+.res-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
+
+.res-hover-text-grey:hover{color:#757575!important}
+.res-text-grey{color:#757575!important}
+
+@media (max-width:992px) and (min-width:601px){
+    .res-hide-medium{display:none!important}
+}
+
+.res-light-grey,.res-hover-light-grey:hover,.res-light-gray,.res-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+
+hr{box-sizing:content-box;height:0;overflow:visible}
+
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
